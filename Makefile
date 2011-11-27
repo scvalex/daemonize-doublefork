@@ -5,7 +5,7 @@ all: build
 build: dist/setup-config
 	cabal build
 
-dist: test
+dist:
 	cabal sdist
 
 install: build
