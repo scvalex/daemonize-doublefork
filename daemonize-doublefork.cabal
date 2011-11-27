@@ -8,10 +8,10 @@ Author:         Alexandru Scvortov <scvalex@gmail.com>
 Maintainer:     scvalex@gmail.com
 Homepage:       https://github.com/scvalex/daemonize-doublefork
 Category:       Web
-Synopsis:       Start background Haskell daemons by double-forking
+Synopsis:       Start background daemons by double-forking
 Build-type:     Simple
 Description:
-        Start background Haskell daemons by double-forking.
+        Start background daemons by double-forking.
         .
         See "System.Posix.Daemon" for documentation.
 
