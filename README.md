@@ -13,7 +13,7 @@ The problem is as follows: the user starts a program in their
 terminal, but he wants the program to relinquish control of the
 terminal immediately, and furthermore, the program (or part of it)
 should keep running even after said terminal is closed.  Examples of
-programs that behave like this are @nginx@ and @emacs --daemon@.
+programs that behave like this are `nginx` and `emacs --daemon`.
 
 The correct solution is to double-fork a process.  This ensures
 that the child process is completed separated from the terminal it
