@@ -3,6 +3,12 @@ daemonize-doublefork
 
 > Start background Haskell daemons by double-forking
 
+Deprecated
+----------
+
+This package has been deprecated in favour of
+[daemons](http://hackage.haskell.org/package/daemons).
+
 What
 ----
 
